@@ -1,0 +1,115 @@
+/* Genel Sayfa Stilleri */
+body {
+    font-family: 'Merriweather', serif;
+    background-image: url('WhatsApp\ Image\ 2024-06-30\ at\ 13.12.22.jpeg');
+    background-size: contain; /* Resmin küçük boyutta olmasını sağlar */
+    background-repeat: repeat; /* Resmin tekrar etmesini sağlar */
+    background-attachment: fixed;
+    background-position: top left; /* Arka planın sol üstten başlamasını sağlar */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Başlık ve Navigasyon */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* İçerik Konteyneri */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 2em;
+}
+
+/* Ana Giriş Bölümü */
+.main-intro {
+    margin-bottom: 2em;
+}
+
+.author-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.author-quote {
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 0;
+}
+
+cite {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    font-style: normal;
+    color: #ffffff;
+}
+
+/* Biografi ve Eserler Bölümleri */
+.biography, .works {
+    text-align: left;
+    margin: 2em 0;
+}
+
+.biography h2, .works h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.biography p, .works li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Footer */
+footer {
+    margin-top: 2em;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 1em 0;
+}
